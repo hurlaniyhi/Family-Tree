@@ -18,7 +18,7 @@ const AppRoutes = () => {
     )
 }
 
-//npm install --save react-router-dom@4.2.2
+//npm install --save react-router-dom@5.2.0
 
 //==== For new version of react-router-dom =====
 // Switch is replaced with Routes
