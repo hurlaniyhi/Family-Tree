@@ -1,0 +1,18 @@
+// Note: 10px === 1rem
+// use 'rem' where you would have used 'px'
+
+.signin-container{
+    color: green;
+    font-size: 4rem
+}
+.text{
+    font-size: 1.5rem
+}
+.nav{
+    color: blue;
+    cursor: pointer;
+
+    &:hover{
+        text-decoration: underline
+    }
+}
