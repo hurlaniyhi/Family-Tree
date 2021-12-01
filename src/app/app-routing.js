@@ -17,7 +17,7 @@ const AppRoutes = () => {
         </Router>
     )
 }
-
+ 
 
 //==== For new version of react-router-dom ========
 // Switch is replaced with Routes
