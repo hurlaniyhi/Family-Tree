@@ -2,11 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import AppRoutes from './app/app-routing';
+import {AuthProvider} from './providers/state-managers/authenticationManager'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <AppRoutes />
+    <AuthProvider>
+      <AppRoutes />
+    </AuthProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
