@@ -17,8 +17,6 @@ const AuthReducer = (state, action) => {
   }
 };
 
-// Abdulhafeez is testing the merge
-
 export const AuthProvider = (props) => {
   const [state, dispatch] = useReducer(AuthReducer, {
     username: "",
