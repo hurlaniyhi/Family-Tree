@@ -17,13 +17,14 @@ const AppRoutes = () => {
         </Router>
     )
 }
+ 
 
-//npm install --save react-router-dom@5.2.0
-
-//==== For new version of react-router-dom =====
+//==== For new version of react-router-dom ========
 // Switch is replaced with Routes
 //<Route exact path="/" element={<Home/>}/>  this is the way to use Route
 //<Route path="*" element={<NotFound/>}/>  // redirect for invalid route
-//"react-router-dom": "^6.0.2",
+//"react-router-dom": "^6.0.2"
+
+//npm install --save react-router-dom@5.2.0
 
 export default AppRoutes
