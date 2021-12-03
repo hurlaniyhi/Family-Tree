@@ -17,6 +17,9 @@ const AuthReducer = (state, action) => {
   }
 };
 
+// testing one two, 1 2
+console.log("Abdulhafeez");
+
 export const AuthProvider = (props) => {
   const [state, dispatch] = useReducer(AuthReducer, {
     username: "",
