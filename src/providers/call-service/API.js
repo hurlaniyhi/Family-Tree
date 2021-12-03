@@ -1,8 +1,8 @@
 import axios from 'axios'
-import {Service_URL} from '../config/constant'
+import {Service_URL, boss} from '../config/constant'
 
 const instance = axios.create({
-    baseURL: Service_URL.BASE_URL  
+    baseURL: Service_URL.BASE_URL
 })
 
 
